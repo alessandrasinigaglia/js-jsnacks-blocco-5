@@ -20,4 +20,7 @@ const students = [
 ];
 
 // Recupera la classe dello studente 'Marco Lanci'
+const studente1 = students.filter(students => students.name === 'Marco Lanci')
+const classe = studente1[0].class
+console.log(classe)
 // Risultato: '3C'
